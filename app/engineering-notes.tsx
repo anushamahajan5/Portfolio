@@ -6,7 +6,7 @@ const notes = [
 export default function EngineeringNotes() {
   return (
     <section id="notes" className="py-20 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="w-full mx-auto">
         <p className="eyebrow">FIELD NOTES</p>
         <h2 className="text-4xl font-bold mb-10">Engineering Notes</h2>
         <div className="notes-grid">

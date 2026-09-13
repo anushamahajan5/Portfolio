@@ -9,7 +9,7 @@ const highlights = [
 export default function Highlights() {
   return (
     <section id="highlights" className="py-20 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="w-full mx-auto">
         <p className="eyebrow">SIGNALS</p>
         <h2 className="text-4xl font-bold mb-10">Honors & Education</h2>
         <div className="highlights-grid">

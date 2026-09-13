@@ -57,15 +57,6 @@ const projects: Project[] = [
     visual: "assistant",
   },
   {
-    title: "Real-time Data Pipeline Lab",
-    category: "Distributed & Systems",
-    description:
-      "A systems prototype exploring Kafka event streams, Spring Boot consumers, Redis-backed state, and observable ETL boundaries.",
-    tech: "Kafka · Spring Boot · Redis · Docker",
-    label: "Systems prototype",
-    visual: "pipeline",
-  },
-  {
     title: "Company Knowledge Assistant",
     category: "AI & Machine Learning",
     description:

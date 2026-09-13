@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
       <Nav />
-      <main className="flex flex-col gap-8 pt-16">
+      <main className="flex flex-col gap-10 pt-16">
         <Hero />
         <About />
         <Experience />
