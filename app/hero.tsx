@@ -30,14 +30,14 @@ export default function Hero() {
       />
       <div className="w-full mx-auto grid md:grid-cols-2 gap-8 items-center relative z-10">
         <div className="mb-12 md:mb-0 md:mr-8 animate-fadeInUp">
-          <h1 className="text-6xl font-extrabold mb-4 bg-gradient-to-r from-[#64ffda] via-[#5ee7df] to-[#ff6ec4] bg-clip-text text-transparent drop-shadow-lg animate-fadeInDown">
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-[#64ffda] via-[#5ee7df] to-[#ff6ec4] bg-clip-text text-transparent drop-shadow-lg animate-fadeInDown">
             Hi, I&apos;m Anusha.
           </h1>
-          <p className="text-2xl font-semibold mb-8 text-[#a8b2d1] animate-fadeIn">
+          <p className="text-xl font-semibold mb-6 text-[#a8b2d1] animate-fadeIn">
             Software Engineer Analyst at Goldman Sachs<br/>
-            <span className="text-[#64ffda] font-bold">GSET Platform | July 2025 - Present</span>
+            <span className="text-[#64ffda] font-bold">Search and Entity Model Team | Sept 2026 - Present</span>
           </p>
-          <p className="max-w-2xl text-lg text-[#a8b2d1] mb-8 animate-fadeIn">
+          <p className="max-w-2xl text-base text-[#a8b2d1] mb-6 animate-fadeIn">
             Software Engineer Analyst specializing in low-latency microservices, distributed ETL pipelines, and high-throughput financial data architectures.
           </p>
           <TerminalWidget />

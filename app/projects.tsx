@@ -27,21 +27,11 @@ const categories: ProjectCategory[] = [
 
 const projects: Project[] = [
   {
-    title: "Prototask",
+    title: "Personal Tracker",
     category: "Full-Stack & Web",
     description:
-      "A full-stack productivity platform combining task management, habit tracking, notes, nutrition, workouts, shopping, expenses, and weekly insights in one responsive dashboard.",
+      "A productivity platform usedb by me personally to keeo tabs on my list of tasks, habits, notes, nutrition, workouts, shopping, expenses, weekly insights with some advice from AI",
     tech: "React 19 · Next.js · FastAPI · MongoDB · Motor · Tailwind CSS",
-    label: "Full stack",
-    href: "https://github.com/anushamahajan5/PersonalTracker",
-    visual: "dashboard",
-  },
-  {
-    title: "PersonalTracker",
-    category: "Full-Stack & Web",
-    description:
-      "A full-stack productivity dashboard for tasks, habits, notes, nutrition, workouts, shopping, expenses, and weekly insights, with AI-assisted food parsing.",
-    tech: "React · Next.js · FastAPI · MongoDB · Python · Gemini",
     label: "Full stack",
     href: "https://github.com/anushamahajan5/PersonalTracker",
     visual: "dashboard",
@@ -60,7 +50,7 @@ const projects: Project[] = [
     title: "Company Knowledge Assistant",
     category: "AI & Machine Learning",
     description:
-      "An AI company knowledge assistant with semantic search, document summarization, feedback analysis, and scheduled updates.",
+      "An AI company knowledge assistant with semantic search, document summarization, feedback analysis, and scheduled updates made as a part of Daytona hackathon.",
     tech: "Flask · MindsDB · OpenAI · ChromaDB",
     label: "AI / backend",
     href: "https://github.com/anushamahajan5/MindsDB_SemanticApp",
