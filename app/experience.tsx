@@ -1,29 +1,35 @@
 'use client';
 
 import { useState } from 'react';
+import ArchitectureDiagram from './architecture-diagram';
 
 export default function Experience() {
   const experiences = [
     {
       company: 'Goldman Sachs',
-      title: 'Engineering Analyst (GSET Platform)',
-      period: 'July 2025 - Present',
+      title: 'Software Engineer Analyst | Search & Entity Model',
+      period: 'September 2026 - Present',
       points: [
-        'Maintained a central Reference Data Platform built on microservices architecture, implementing data ingestion, enrichment, and transformation processes using ETL workflow to cater consumers',
-        'Remodelled the Locates setup by publishing a new protobuf regulatory dataset, enabling short-sell eligibility across 5+ trading systems',
-        'Collaborated cross-functionality with Compliance, Prime, platform team for enriching the existing datasets with additional fields with comprehensive QA and EXT testing',
-        'Supported a new market within the XRDS platform using dependency injection, facilitating client orders through 5 new trade gates'
+        'Architect and maintain enterprise platforms designed to detect, mitigate, and manage regulatory and reputational risk across the firm.'
       ],
-      tech: 'SpringBoot, Groovy, pub-sub model, observer pattern'
+      tech: 'Risk platforms, enterprise systems, search and entity modeling'
+    },
+    {
+      company: 'Goldman Sachs',
+      title: 'Software Engineering Analyst | GSET Platform',
+      period: 'July 2025 - September 2026',
+      points: [
+        'Engineered multi-channel ETL pipelines processing high-volume daily reference data, cutting downstream latency across 5+ trading gates.',
+        'Modeled regulatory datasets with Protobuf and leveraged Kafka pub-sub and observer patterns for low-latency distribution across 5+ downstream trading systems.'
+      ],
+      tech: 'Java, Spring Boot, Groovy, Kafka, Protobuf, microservices'
     },
     {
       company: 'Goldman Sachs Intern',
-      title: 'Summer Analyst Intern (GBM Division)',
+      title: 'Summer Analyst Internship | Goldman Sachs',
       period: 'May 2024 - July 2024',
       points: [
-        'Kafka Stream Monitoring: Automated the validation of financial reference data used by downstream consumers using Ready For Business (RFB) checks',
-        'Python Data Pipeline: Coded a firm-wide Python pipe to convert 500,000+ entries from JSON to InfluxDB format for real-time alerts',
-        'Data Metrics UI: Built a consolidated dashboard for 10+ datasets in EMEA, color-coded (Red/Green) for instant risk (RFB) status identification'
+        'Validated live Kafka data streams with Ready For Business checks, built Python pipelines to store metrics in InfluxDB, and created real-time health-monitoring dashboards.'
       ],
       tech: 'Vert.x, Micrometer, ReactJS, Python'
     },
@@ -95,6 +101,7 @@ export default function Experience() {
             </div>
           </div>
         </div>
+        <ArchitectureDiagram />
       </div>
     </section>
   );

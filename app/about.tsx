@@ -8,23 +8,23 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <p className="text-[#8892b0] mb-6">
-              I am currently an Engineering Analyst at <a href="https://www.goldmansachs.com/what-we-do/ficc-and-equities/gset-equities" target="_blank" rel="noopener noreferrer" className="text-[#64ffda] hover:underline">Goldman Sachs</a>, where I maintain a central Reference Data Platform built on microservices architecture.
-              Previously, I was a Summer Analyst Intern at Goldman Sachs and a Software Engineering Intern at <a href="https://www.grafieks.com/" target="_blank" rel="noopener noreferrer" className="text-[#64ffda] hover:underline">Grafieks</a>.
+              I am a Software Engineer Analyst on the Search and Entity Model team at <a href="https://www.goldmansachs.com/what-we-do/ficc-and-equities/gset-equities" target="_blank" rel="noopener noreferrer" className="text-[#64ffda] hover:underline">Goldman Sachs</a>, where I build and maintain platforms that help detect, mitigate, and manage regulatory and reputational risk across the firm.
+              Previously, I worked on the GSET Reference Data Platform at Goldman Sachs and was a Software Engineering Intern at <a href="https://www.grafieks.com/" target="_blank" rel="noopener noreferrer" className="text-[#64ffda] hover:underline">Grafieks</a>.
               I hold a Bachelor of Technology in Electronics Engineering from <a href="https://www.iitbhu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-[#64ffda] hover:underline">IIT (BHU) Varanasi</a>.
             </p>
             <p className="text-[#8892b0] mb-6">
               Here are some technologies I have been working with:
             </p>
-            <ul className="text-[#8892b0] list-none">
-              <li>▹ Python</li>
-              <li>▹ JavaScript</li>
-              <li>▹ Java</li>
-              <li>▹ C++</li>
-              <li>▹ React</li>
-              <li>▹ Node.js</li>
-              <li>▹ SQL</li>
-              <li>▹ Kafka</li>
-            </ul>
+            <div className="space-y-5 text-[#8892b0]">
+              <div>
+                <h3 className="text-lg font-semibold text-[#64ffda] mb-2">Primary</h3>
+                <p className="text-base">Java · Spring Boot · Kafka · Vert.x · Microservices · System Architecture · SQL</p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-[#64ffda] mb-2">Secondary</h3>
+                <p className="text-base">Python · React.js · Node.js · Observer and Pub/Sub Design Patterns · InfluxDB</p>
+              </div>
+            </div>
           </div>
           <div className="flex justify-center">
             <Image

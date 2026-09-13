@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
+import TerminalWidget from "./terminal-widget";
 
 export default function Hero() {
   // Floating animation for avatar
@@ -30,12 +31,16 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center relative z-10">
         <div className="mb-12 md:mb-0 md:mr-8 animate-fadeInUp">
           <h1 className="text-6xl font-extrabold mb-4 bg-gradient-to-r from-[#64ffda] via-[#5ee7df] to-[#ff6ec4] bg-clip-text text-transparent drop-shadow-lg animate-fadeInDown">
-            Hi, I'm Anusha.
+            Hi, I&apos;m Anusha.
           </h1>
           <p className="text-2xl font-semibold mb-8 text-[#a8b2d1] animate-fadeIn">
-            Software Engineer & Creative Developer<br/>
-            <span className="text-[#64ffda] font-bold">Building delightful web experiences.</span>
+            Software Engineer Analyst at Goldman Sachs<br/>
+            <span className="text-[#64ffda] font-bold">Search and Entity Model | Sep 2026 - Present</span>
           </p>
+          <p className="max-w-2xl text-lg text-[#a8b2d1] mb-8 animate-fadeIn">
+            Software Engineer Analyst specializing in low-latency microservices, distributed ETL pipelines, and high-throughput financial data architectures.
+          </p>
+          <TerminalWidget />
           <div className="space-x-4">
             <a
               href="mailto:anusha.mahajan.ece21@itbhu.ac.in"
@@ -58,7 +63,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className="flex justify-center relative z-10 animate-fadeInUp">
+        <div className="flex flex-col items-center gap-8 relative z-10 animate-fadeInUp">
           <div
             ref={avatarRef}
             className="rounded-full shadow-2xl border-4 border-[#64ffda] bg-[#112240] p-2 transition-transform duration-500"
@@ -73,6 +78,14 @@ export default function Hero() {
               style={{ objectFit: 'cover', objectPosition: 'center', width: 400, height: 400 }}
               priority
             />
+          </div>
+          <div className="system-metric" aria-label="System status">
+            <span className="metric-dot" />
+            <span>System status</span>
+            <strong>99.99% uptime</strong>
+            <span className="metric-divider" />
+            <span>p95 latency</span>
+            <strong>42ms</strong>
           </div>
         </div>
       </div>

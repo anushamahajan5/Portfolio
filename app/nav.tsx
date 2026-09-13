@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import ThemeToggle from "./theme-toggle";
 
 export default function Nav() {
   const [active, setActive] = useState<string>("");
@@ -7,13 +8,16 @@ export default function Nav() {
     { href: "#about", label: "About" },
     { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
+    { href: "#notes", label: "Notes" },
+    { href: "#writing", label: "Writing" },
     { href: "#contact", label: "Contact" },
   ];
   return (
     <nav className="fixed top-0 w-full z-20">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center bg-white/10 dark:bg-[#112240]/70 backdrop-blur-md rounded-b-2xl shadow-lg border-b border-[#233554]/40">
         <a href="#intro" className="text-2xl font-extrabold text-[#64ffda] tracking-tight px-2 py-1 rounded-lg bg-gradient-to-r from-[#64ffda]/20 to-[#5ee7df]/10 hover:from-[#64ffda]/40 transition-all duration-300">Anusha Mahajan</a>
-        <div className="flex gap-2 md:gap-6">
+        <div className="flex items-center gap-1 md:gap-4">
+          <div className="hidden lg:flex gap-2 md:gap-4">
           {links.map((link) => (
             <a
               key={link.href}
@@ -29,6 +33,8 @@ export default function Nav() {
               />
             </a>
           ))}
+          </div>
+          <ThemeToggle />
         </div>
       </div>
     </nav>
