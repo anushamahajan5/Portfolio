@@ -21,7 +21,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="intro" className="relative min-h-screen flex items-center px-4 bg-[#0a192f] overflow-hidden">
+    <section id="intro" className="relative min-h-screen max-w-[1120px] flex items-center px-4 bg-[#0a192f] overflow-hidden">
       {/* Animated background blob */}
       <div
         aria-hidden
@@ -41,7 +41,7 @@ export default function Hero() {
             Software Engineer Analyst specializing in low-latency microservices, distributed ETL pipelines, and high-throughput financial data architectures.
           </p>
           <TerminalWidget />
-          <div className="space-x-4">
+          <div className="mt-6 flex flex-wrap gap-4">
             <a
               href="mailto:anushamahajan5@gmail.com"
               className="inline-flex items-center space-x-2 bg-[#64ffda] text-[#0a192f] px-7 py-3 rounded-full shadow-lg hover:bg-[#52e3c2] transition-all duration-300 scale-100 hover:scale-105 animate-fadeInUp"
