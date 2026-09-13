@@ -253,6 +253,10 @@ button:hover, button:focus {
 
 .theme-toggle:hover { transform: translateY(-1px); }
 
+.nav-links { scrollbar-width: none; }
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-link { width: 6rem; }
+
 .eyebrow {
   margin-bottom: 0.75rem;
   color: var(--green);
@@ -310,6 +314,7 @@ button:hover, button:focus {
 .architecture-detail { padding: 1rem; border-left: 2px solid var(--green); background: rgba(100, 255, 218, 0.05); animation: fadeIn 0.3s ease; }
 .architecture-detail span { color: var(--green); font: 0.75rem var(--font-mono); text-transform: uppercase; }
 .architecture-detail p { margin: 0.35rem 0 0; font-size: 0.95rem; }
+.experience-role + .experience-role { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(204, 214, 246, 0.13); }
 
 .project-tabs { display: flex; flex-wrap: wrap; gap: 0.45rem; }
 .project-tabs button { margin: 0; padding: 0.55rem 0.75rem; border: 1px solid rgba(204, 214, 246, 0.18); border-radius: 999px; background: transparent; color: var(--slate); box-shadow: none; font-size: 0.75rem; }

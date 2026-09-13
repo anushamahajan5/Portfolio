@@ -24,7 +24,7 @@ export default function Contact() {
           <a href="https://www.linkedin.com/in/anusha-mahajan-136771194/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-[#a8b2d1] hover:text-[#64ffda] transition-colors text-3xl">
             <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.968v5.699h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.841-1.563 3.039 0 3.6 2.001 3.6 4.601v5.595z"/></svg>
           </a>
-          <a href="mailto:anusha.mahajan.ece21@itbhu.ac.in" aria-label="Email" className="text-[#a8b2d1] hover:text-[#64ffda] transition-colors text-3xl">
+          <a href="mailto:anushamahajan5@gmail.com" aria-label="Email" className="text-[#a8b2d1] hover:text-[#64ffda] transition-colors text-3xl">
             <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M12 13.065l-11.985-7.065v16c0 1.104.896 2 2 2h19.97c1.104 0 2-.896 2-2v-16l-11.985 7.065zm11.985-9.065c0-1.104-.896-2-2-2h-19.97c-1.104 0-2 .896-2 2v.217l12 7.083 12-7.083v-.217z"/></svg>
           </a>
         </div>
@@ -36,10 +36,10 @@ export default function Contact() {
             <button type="button" className="drawer-close" onClick={() => setIsDrawerOpen(false)} aria-label="Close contact panel">×</button>
             <p className="eyebrow">OPEN CHANNEL</p>
             <h3 id="contact-drawer-title">Start a useful conversation.</h3>
-            <p>Choose a starting point and I&apos;ll reply at <strong>anusha.mahajan.ece21@itbhu.ac.in</strong>.</p>
+            <p>Choose a starting point and I&apos;ll reply at <strong>anushamahajan5@gmail.com</strong>.</p>
             <div className="contact-options">
-              <a href="mailto:anusha.mahajan.ece21@itbhu.ac.in?subject=Discussing%20an%20opportunity">Discussing an opportunity <span>↗</span></a>
-              <a href="mailto:anusha.mahajan.ece21@itbhu.ac.in?subject=Technical%20collaboration">Technical collaboration <span>↗</span></a>
+              <a href="mailto:anushamahajan5@gmail.com?subject=Discussing%20an%20opportunity">Discussing an opportunity <span>↗</span></a>
+              <a href="mailto:anushamahajan5@gmail.com?subject=Technical%20collaboration">Technical collaboration <span>↗</span></a>
             </div>
           </div>
         </div>

@@ -18,11 +18,11 @@ export default function About() {
             <div className="space-y-5 text-[#8892b0]">
               <div>
                 <h3 className="text-lg font-semibold text-[#64ffda] mb-2">Primary</h3>
-                <p className="text-base">Java · Spring Boot · Kafka · Vert.x · Microservices · System Architecture · SQL</p>
+                <p className="text-base">Java · Spring · Kafka · Vert.x · Microservices · System Design · Low-Latency Systems · ETL Pipelines · SQL</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-[#64ffda] mb-2">Secondary</h3>
-                <p className="text-base">Python · React.js · Node.js · Observer and Pub/Sub Design Patterns · InfluxDB</p>
+                <p className="text-base">Python · C++ · JavaScript · React · Node.js · Express · Protobuf · FlatBuffers · Micrometer · Prometheus · D3.js · InfluxDB</p>
               </div>
             </div>
           </div>

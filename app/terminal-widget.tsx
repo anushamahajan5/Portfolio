@@ -6,7 +6,7 @@ const responses: Record<string, string> = {
   help: "Try: skills, focus, contact, or clear",
   skills: "Java / Spring Boot / Kafka / Vert.x / SQL / Python",
   focus: "Low-latency services, ETL pipelines, and risk platforms.",
-  contact: "anusha.mahajan.ece21@itbhu.ac.in",
+  contact: "anushamahajan5@gmail.com",
 };
 
 export default function TerminalWidget() {

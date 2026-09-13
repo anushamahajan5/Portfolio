@@ -35,7 +35,7 @@ export default function Hero() {
           </h1>
           <p className="text-2xl font-semibold mb-8 text-[#a8b2d1] animate-fadeIn">
             Software Engineer Analyst at Goldman Sachs<br/>
-            <span className="text-[#64ffda] font-bold">Search and Entity Model | Sep 2026 - Present</span>
+            <span className="text-[#64ffda] font-bold">GSET Platform | July 2025 - Present</span>
           </p>
           <p className="max-w-2xl text-lg text-[#a8b2d1] mb-8 animate-fadeIn">
             Software Engineer Analyst specializing in low-latency microservices, distributed ETL pipelines, and high-throughput financial data architectures.
@@ -43,7 +43,7 @@ export default function Hero() {
           <TerminalWidget />
           <div className="space-x-4">
             <a
-              href="mailto:anusha.mahajan.ece21@itbhu.ac.in"
+              href="mailto:anushamahajan5@gmail.com"
               className="inline-flex items-center space-x-2 bg-[#64ffda] text-[#0a192f] px-7 py-3 rounded-full shadow-lg hover:bg-[#52e3c2] transition-all duration-300 scale-100 hover:scale-105 animate-fadeInUp"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

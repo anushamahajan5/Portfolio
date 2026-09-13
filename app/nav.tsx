@@ -17,12 +17,12 @@ export default function Nav() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center bg-white/10 dark:bg-[#112240]/70 backdrop-blur-md rounded-b-2xl shadow-lg border-b border-[#233554]/40">
         <a href="#intro" className="text-2xl font-extrabold text-[#64ffda] tracking-tight px-2 py-1 rounded-lg bg-gradient-to-r from-[#64ffda]/20 to-[#5ee7df]/10 hover:from-[#64ffda]/40 transition-all duration-300">Anusha Mahajan</a>
         <div className="flex items-center gap-1 md:gap-4">
-          <div className="hidden lg:flex gap-2 md:gap-4">
+          <div className="nav-links flex max-w-[55vw] gap-1 overflow-x-auto md:max-w-none md:gap-2">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className={`relative px-3 py-1 font-medium text-[#a8b2d1] hover:text-[#64ffda] transition-colors duration-200 ${active === link.href ? "text-[#64ffda]" : ""}`}
+              className={`nav-link relative inline-flex shrink-0 justify-center px-3 py-1 font-medium text-[#a8b2d1] hover:text-[#64ffda] transition-colors duration-200 ${active === link.href ? "text-[#64ffda]" : ""}`}
               onMouseEnter={() => setActive(link.href)}
               onMouseLeave={() => setActive("")}
             >

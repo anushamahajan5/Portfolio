@@ -27,6 +27,16 @@ const categories: ProjectCategory[] = [
 
 const projects: Project[] = [
   {
+    title: "Prototask",
+    category: "Full-Stack & Web",
+    description:
+      "A full-stack productivity platform combining task management, habit tracking, notes, nutrition, workouts, shopping, expenses, and weekly insights in one responsive dashboard.",
+    tech: "React 19 · Next.js · FastAPI · MongoDB · Motor · Tailwind CSS",
+    label: "Full stack",
+    href: "https://github.com/anushamahajan5/PersonalTracker",
+    visual: "dashboard",
+  },
+  {
     title: "PersonalTracker",
     category: "Full-Stack & Web",
     description:
