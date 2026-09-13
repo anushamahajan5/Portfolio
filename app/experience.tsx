@@ -20,8 +20,16 @@ const experiences: Company[] = [
     company: 'Goldman Sachs',
     roles: [
       {
-        title: 'Engineering Analyst | GSET Platform',
-        period: 'July 2025 - Present',
+        title: 'Software Engineer Analyst | Compliance & Risk Engineering',
+        period: 'September 2026 - Present',
+        points: [
+          'Architect and maintain enterprise platforms designed to detect, mitigate, and manage regulatory and reputational risk across the firm.',
+        ],
+        tech: 'Risk platforms, enterprise systems, search and entity modeling',
+      },
+      {
+        title: 'Engineering Analyst | GLobal Banking & Markets Division',
+        period: 'July 2025 - September 2026',
         points: [
           'Engineered an event-driven Java, Kafka, and Protobuf pipeline generating ESMA/FCA short-sell indicators for real-time Order Management Systems.',
           'Reduced garbage-collection pauses on critical Albus sequencer paths through object pooling and flow separation for low-latency execution.',
@@ -52,6 +60,33 @@ const experiences: Company[] = [
           'Redesigned 10+ data visualization, analytics dashboard, and SlickGrid table components to improve usability.',
         ],
         tech: 'Node.js, ReactJS, D3.js, SlickGrid',
+      },
+    ],
+  },
+  {
+    company: 'Unstop',
+    roles: [
+      {
+        title: 'Quality Assurance Intern',
+        period: 'September 2024 - December 2024',
+        points: [
+          'Verified 50+ SQL queries and debugged 100+ test cases to ensure application functionality.',
+          'Identified and resolved critical application bugs across key product workflows.',
+        ],
+        tech: 'SQL, DSA, quality assurance',
+      },
+    ],
+  },
+  {
+    company: 'GeeksForGeeks',
+    roles: [
+      {
+        title: 'Content Writing Intern',
+        period: 'September 2023 - December 2023',
+        points: [
+          'Wrote 20+ articles on data structures and algorithms, contributing to the educational content library.',
+        ],
+        tech: 'Data Structures, Algorithms, technical writing',
       },
     ],
   },

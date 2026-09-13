@@ -28,7 +28,7 @@ export default function Hero() {
         className="absolute left-[-120px] top-[-120px] w-[420px] h-[420px] bg-gradient-to-tr from-[#64ffda] via-[#5ee7df] to-[#ff6ec4] opacity-30 blur-3xl rounded-full animate-pulse z-0"
         style={{ filter: 'blur(120px)' }}
       />
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center relative z-10">
+      <div className="w-full mx-auto grid md:grid-cols-2 gap-8 items-center relative z-10">
         <div className="mb-12 md:mb-0 md:mr-8 animate-fadeInUp">
           <h1 className="text-6xl font-extrabold mb-4 bg-gradient-to-r from-[#64ffda] via-[#5ee7df] to-[#ff6ec4] bg-clip-text text-transparent drop-shadow-lg animate-fadeInDown">
             Hi, I&apos;m Anusha.
